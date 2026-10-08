@@ -75,14 +75,35 @@
   "work": [
     {
       "name": "Florida International University",
-      "position": "Graduate Research Assistant",
+      "position": "Graduate Research Assistant, Multi-Frequency Dynamic Phasor Simulation",
       "url": "https://www.fiu.edu/",
       "startDate": "2025-05",
-      "summary": "Multi-frequency dynamic phasor simulation, ORNL RE-INTEGRATE EMT simulation project, and FAU and FIU PMU cybersecurity project.",
+      "summary": "",
       "highlights": [
-        "Developed a Python MNA simulator with EMT and multi-frequency dynamic phasor solvers, validated against EMT on the IEEE 39-bus system.",
-        "Implemented WECC generic renewable models (REGC_A, REEC_A, REPC_A, REPC_B), the induction generator, and Type 1 to Type 4 wind turbine models in C++ for the ORNL RE-INTEGRATE EMT solver.",
-        "Secured IEEE C37.118 PMU data with public-key cryptography and an SRAM PUF in a hardware-in-the-loop testbed, with a real-time IEEE 39-bus simulation in OPAL-RT eMEGASIM."
+        "Developed a Python MNA simulator with EMT and multi-frequency dynamic phasor (DP) solvers for transient studies of large power systems.",
+        "Validated multi-frequency DP simulation against EMT on the IEEE 39-bus system, with larger time steps and shorter run times."
+      ]
+    },
+    {
+      "name": "ORNL RE-INTEGRATE EMT Simulation Project, Oak Ridge National Laboratory",
+      "position": "Graduate Research Assistant",
+      "url": "https://www.ornl.gov/",
+      "startDate": "2025-05",
+      "summary": "",
+      "highlights": [
+        "Implemented and debugged WECC generic renewable dynamic models in C++ for the ORNL RE-INTEGRATE EMT solver, including converter (REGC_A), electrical control (REEC_A) and plant control (REPC_A, REPC_B) models.",
+        "Modeled the induction generator and Type 1 to Type 4 wind turbine models (WT1T, WT12A1, WTARA1), along with GAST and WSIEG1 governors and the REXSYS exciter."
+      ]
+    },
+    {
+      "name": "FAU and FIU PMU Cybersecurity Project",
+      "position": "Graduate Research Assistant",
+      "url": "",
+      "startDate": "2025-05",
+      "summary": "",
+      "highlights": [
+        "Secured IEEE C37.118 data frames with public-key cryptography and an SRAM physically unclonable function (PUF) in a hardware-in-the-loop testbed with SEL relays, validated against FDI, DDoS and MiTM attacks.",
+        "Built a real-time IEEE 39-bus simulation in OPAL-RT eMEGASIM to stream PMU measurements into the testbed."
       ]
     },
     {
@@ -207,7 +228,7 @@
       "date": "2023-2024",
       "awarder": "Department of Electrical Engineering",
       "url": "https://drive.google.com/file/d/1qhLOcKUPwexQGfrbGh4fbIsHPos0MCZe/view?usp=sharing",
-      "summary": "Obtained 82.63% in 7th Sem and 89.875 % in 8th Sem"
+      "summary": ""
     },
     {
       "title": "Four year merit-based scholarship",
