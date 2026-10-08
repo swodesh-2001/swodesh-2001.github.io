@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in Electrical and Computer Engineering at Florida International University, working with Prof. Sumit Paudyal on power system modeling and simulation. My research is supported by Oak Ridge National Laboratory (ORNL) and a joint FAU and FIU project.
+I am a Ph.D. student in Electrical and Computer Engineering at Florida International University, working with Prof. Sumit Paudyal on power system modeling and simulation.
 
 **Research interests**
 
@@ -32,4 +32,3 @@ My current work develops multi-frequency dynamic phasor methods that keep the ac
 
 I received my B.E. in Electrical Engineering with distinction from Pulchowk Campus, Tribhuvan University, Nepal, where my thesis studied control of transformerless grid-connected PV inverters.
 
-[CV (PDF)](/assets/pdf/Swodesh_Sharma_CV.pdf)
