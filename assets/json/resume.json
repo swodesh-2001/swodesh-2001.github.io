@@ -1,73 +1,113 @@
- 
 {
   "basics": {
     "name": "Swodesh Sharma",
-    "label": "Electrical Engineer",
+    "label": "Ph.D. Student, Electrical and Computer Engineering",
     "image": "",
-    "email": "xarmaswodesh@gmail.com",
-    "phone": "977-9869864464",
-    "url": "https://github.com/swodesh-2001",
-    "summary": "An aspiring electrical engineer with interests in power systems, renewable energy, and machine learning applications in power systems.",
+    "email": "sshar152@fiu.edu",
+    "phone": "",
+    "url": "https://swodesh-2001.github.io",
+    "summary": "Ph.D. student at Florida International University working on dynamic phasor and EMT simulation, inverter-based resources, and PMU cybersecurity.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Kathmandu",
-      "countryCode": "NP",
-      "region": "Nepal"
+      "city": "Miami",
+      "countryCode": "US",
+      "region": "Florida"
     },
     "profiles": []
   },
   "publications": [
     {
-      "name": "An Optimized H5 Hysteresis Current Control with Clamped Diodes in Transformer-Less Grid-PV Inverter ",
-      "publisher": " MDPI Electricity",
+      "name": "Multi-Frequency Dynamic Phasor Modeling for Transient Simulation",
+      "publisher": "North American Power Symposium (NAPS), accepted",
+      "releaseDate": "2026",
+      "url": ""
+    },
+    {
+      "name": "Lightweight ECDH Encryption for Secure IEEE C37.118 Synchrophasor using HIL Implementation",
+      "publisher": "Poster",
+      "releaseDate": "2026",
+      "url": "/highlights/"
+    },
+    {
+      "name": "A Hardware-in-the-Loop Testbed for Cyberattack Mitigation in C37.118 Data Transmission",
+      "publisher": "Poster, 4th CREPES Annual Workshop, Miami, FL",
       "releaseDate": "2025",
-      "url": "https://www.mdpi.com/3123698"
+      "url": "/highlights/"
+    },
+    {
+      "name": "Generative Adversarial Networks with Physics-Informed Losses for High-Resolution Load Profile Generation and Inpainting",
+      "publisher": "Journal of Modern Power Systems and Clean Energy",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.35833/MPCE.2024.001153"
+    },
+    {
+      "name": "Development of a Low-Cost Laparoscopic Appendicectomy Simulation Model with Automated Progress Tracking",
+      "publisher": "Journal of Medical Engineering & Technology",
+      "releaseDate": "2026",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/03091902.2025.2570160"
+    },
+    {
+      "name": "An Optimized H5 Hysteresis Current Control with Clamped Diodes in Transformer-Less Grid-PV Inverter",
+      "publisher": "Electricity (MDPI)",
+      "releaseDate": "2025",
+      "url": "https://www.mdpi.com/2673-4826/6/1/1"
+    },
+    {
+      "name": "A Comparative Analysis of Transformer-less Inverter Topologies for Grid-Connected PV Systems",
+      "publisher": "KEC Journal of Science and Engineering",
+      "releaseDate": "2025",
+      "url": "https://www.nepjol.info/index.php/kjse/article/view/78336"
     },
     {
       "name": "A Comprehensive Study on Implementation of Deep Learning on Autonomous Vehicle for Steering Angle Prediction and Stability",
-      "publisher": " KEC Journal of Science and Engineering",
+      "publisher": "KEC Journal of Science and Engineering",
       "releaseDate": "2024",
-      "url": "https://doi.org/10.3126/kjse.v8i1.69256",
-      "summary": "Presented at KEC Journal of Science and Engineering"
+      "url": "https://www.nepjol.info/index.php/kjse/article/view/69256"
     },
     {
       "name": "Predictive Load Management Using IoT and Data Analytics",
-      "publisher": "Artificial Intelligence of Things (ICAIoT 2023)",
-      "releaseDate": "2023",
-      "url": "https://doi.org/10.1007/978-3-031-48781-1_13",
-      "summary": "Presented at Artificial Intelligence of Things (ICAIoT 2023), Part of the book series: Communications in Computer and Information Science (CCIS, Springer)."
+      "publisher": "ICAIoT 2023, CCIS vol. 1930, Springer",
+      "releaseDate": "2024",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-48781-1_13"
     }
   ],
   "work": [
     {
-      "name": "K&A Engineering Consulting ",
-      "position": "Associate Electrical Engineer",
-      "url": "",
-      "startDate": "2024-11-05",
-      "summary": "Electrical Design and Estimation of Distribution system of California, USA"
-    },
-    {
-      "name": "EKbana Solutions Pvt. Ltd.",
-      "position": "Machine Learning Trainee",
-      "url": "",
-      "startDate": "2024-05-01",
-      "endDate": "2024-07-01",
-      "summary": "Replicating research papers in PyTorch and working on vision transformer models for solar energy generation estimation.",
+      "name": "Florida International University",
+      "position": "Graduate Research Assistant",
+      "url": "https://www.fiu.edu/",
+      "startDate": "2025-05",
+      "summary": "Multi-frequency dynamic phasor simulation, ORNL RE-INTEGRATE EMT simulation project, and FAU and FIU PMU cybersecurity project.",
       "highlights": [
-        "Developed and implemented algorithms such as image stitching, lane detection, image transformation, 3D transformations, and color space manipulation using C++.",
-        " Replicated research papers using PyTorch, including UNET.",
-        "Assisted in research focused on using multiple AI agents to improve large language models (LLMs)."
+        "Developed a Python MNA simulator with EMT and multi-frequency dynamic phasor solvers, validated against EMT on the IEEE 39-bus system.",
+        "Implemented WECC generic renewable models (REGC_A, REEC_A, REPC_A, REPC_B), the induction generator, and Type 1 to Type 4 wind turbine models in C++ for the ORNL RE-INTEGRATE EMT solver.",
+        "Secured IEEE C37.118 PMU data with public-key cryptography and an SRAM PUF in a hardware-in-the-loop testbed, with a real-time IEEE 39-bus simulation in OPAL-RT eMEGASIM."
       ]
     },
     {
-      "name": "Fusemachine",
-      "position": "AI Fellow Intern",
+      "name": "Woosong University",
+      "position": "Research Assistant",
       "url": "",
-      "startDate": "2022-01-01",
-      "endDate": "2023-01-01",
-      "summary": "Learned foundational concepts in machine learning, deep learning, natural language processing (NLP), and computer vision.",
-      "highlights": []
+      "startDate": "2024-07",
+      "endDate": "2024-08",
+      "summary": "Physics-informed GAN for load profile inpainting and super-resolution; VGG-19 transmission line fault classification."
+    },
+    {
+      "name": "K&A Engineering Consulting, P.C.",
+      "position": "Associate Electrical Engineer",
+      "url": "",
+      "startDate": "2024-11",
+      "endDate": "2025-04",
+      "summary": "Electrical design and estimation of distribution systems."
+    },
+    {
+      "name": "Fusemachines",
+      "position": "AI Fellow Intern",
+      "url": "https://fusemachines.com/",
+      "startDate": "2023-01",
+      "endDate": "2024-01",
+      "summary": "Machine learning, deep learning, NLP, and computer vision fellowship."
     }
   ],
   "volunteer": [
@@ -114,27 +154,54 @@
   ],
   "education": [
     {
-      "institution": "Pulchowk Engineering College, Tribhuvan University",
-      "location": "Lalitpur, Nepal",
-      "url": "",
-      "area": "Electrical Engineering",
-      "studyType": "Bachelor’s",
-      "startDate": "2019-11-01",
-      "endDate": "2024-04-01",
-      "score": "80.92%",
+      "institution": "Florida International University",
+      "location": "Miami, FL, USA",
+      "url": "https://www.fiu.edu/",
+      "area": "Electrical and Computer Engineering (Power Systems)",
+      "studyType": "Ph.D.",
+      "startDate": "2025-05",
+      "endDate": "",
+      "score": "",
       "courses": [
-        "Aggregate 80.92 %",
-        "Thesis: Development of New Control Strategy in Transformerless Grid Connected PV Inverter to Reduce Leakage Current",
-        "158th Rank in entrance examination among 18000 applicants, Top 1%",
-        "Electrical Courseworks: Electric Circuit Theory, Electromagnetics, Electronic devices and circuits, Electric Engineering Material, Advance Power System Analysis, Electrical Machine Design, Control System, Signal Analysis, Switchgear and Protection, Industrial Distribution and Illumination, Power Plant Design, Power Electronics, Transmission and Distribution Design",
-        "Computer Science Coursework: Computer Programming (C), Object Oriented Programming in C++, Digital Logic, Microprocessor (8085 and 8086)",
-        "Artificial Intelligence Coursework: - Artificial Neural Network",
-        "Mathematics Coursework: Linear Algebra, Probability and Statistics, Calculus I, Calculus II, Numerical Methods"
-                            
+        "Advisor: Prof. Sumit Paudyal",
+        "Power System Engineering, Advanced Network Analysis, Advanced Systems Theory, Numerical Analysis of Electrical Devices, Neural Networks, Advanced Neural Networks, Advanced Malware Reverse Engineering",
+        "In progress: Power System Transients, Linear Programming, Advanced Machine Learning, Network Security"
       ]
+    },
+    {
+      "institution": "Institute of Engineering, Pulchowk Campus, Tribhuvan University",
+      "location": "Lalitpur, Nepal",
+      "url": "https://pcampus.edu.np/",
+      "area": "Electrical Engineering",
+      "studyType": "B.E.",
+      "startDate": "2019-12",
+      "endDate": "2024-04",
+      "score": "",
+      "courses": [
+        "Graduated with Distinction, ranked 3rd in Electrical Engineering across the university",
+        "Thesis: Development of a New Control Strategy in Transformerless Grid-Connected PV Inverters to Reduce Leakage Current"
+      ]
+    },
+    {
+      "institution": "Fusemachines",
+      "location": "Kathmandu, Nepal",
+      "url": "https://fusemachines.com/",
+      "area": "Artificial Intelligence",
+      "studyType": "Micro-degree",
+      "startDate": "2023-01",
+      "endDate": "2024-01",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [
+    {
+      "title": "GASOC Hackathon, 1st Place (£3,000 funding)",
+      "date": "2024",
+      "awarder": "Global Anaesthesia, Surgery and Obstetric Collaboration, UK",
+      "url": "",
+      "summary": ""
+    },
     {
       "title": "IOE Electrical 2nd Topper for final year (7th and 8th semester) for Year 2023-2024 ",
       "date": "2023-2024",
@@ -167,98 +234,60 @@
   "certificates": [],
   "skills": [
     {
-      "name": "Programming Languages",
+      "name": "Programming",
       "level": "",
-      "icon": "",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "C",
         "Python",
-        "C++"
+        "C",
+        "C++",
+        "Julia",
+        "MATLAB",
+        "CMake",
+        "Ninja",
+        "Bazel"
       ]
     },
     {
-      "name": "Libraries and Tools",
+      "name": "Power Systems",
       "level": "",
-      "icon": "",
+      "icon": "fa-solid fa-bolt",
       "keywords": [
-        "TensorFlow",
+        "PSCAD",
+        "PSS/E",
+        "OPAL-RT",
+        "MATPOWER",
+        "ANDES",
+        "PowerWorld",
+        "Hardware-in-the-loop"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "level": "",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "SEL relays",
+        "PMU (IEEE C37.118)",
+        "Raspberry Pi",
+        "Embedded Linux"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
         "PyTorch",
-        "pandas",
-        "NumPy",
-        "Matplotlib",
-        "Scikit-learn",
-        "FastAPI"
-      ]
-    },
-    {
-      "name": "Version Control",
-      "level": "",
-      "icon": "",
-      "keywords": [
-        "Git"
-      ]
-    },
-    {
-      "name": "Operating Systems",
-      "level": "",
-      "icon": "",
-      "keywords": [
-        "Linux",
-        "Windows"
-      ]
-    },
-    {
-      "name": "Other Software",
-      "level": "",
-      "icon": "",
-      "keywords": [
-        "LaTeX",
-        "Microsoft Office Suite"
-      ]
-    },
-    {
-      "name": "Design Software",
-      "level": "",
-      "icon": "",
-      "keywords": [
-        "AutoCAD",
-        "Matlab",
-        "Simulink",
-        "Proteus",
-        "EasyEda"
-      ]
-    },
-    {
-      "name": "Electrical Design Skills",
-      "level": "",
-      "icon": "",
-      "keywords": [
-        "Transmission Line Design",
-        "Power Plant Design",
-        "Inverter Design",
-        "Photovoltaic Systems"
-      ]
-    },
-    {
-      "name": "Embedded System Programming",
-      "level": "",
-      "icon": "",
-      "keywords": [
-        "Atmega328p",
-        "Intel 8085",
-        "Intel 8086",
-        "PIC16F874",
-        "Node MCU"
+        "CNNs",
+        "Vision Transformers",
+        "GANs",
+        "GNNs"
       ]
     }
   ],
   "languages": [],
   "interests": [],
-  "references": [
-    {
-      "name" : "Available upon request"
-    }
-  ],
+  "references": [],
   "projects": []
 }
- 
