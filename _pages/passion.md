@@ -54,12 +54,12 @@ Here are some of our initial accomplishments :
   </div>
 
   <div class="mySlides">
-    <img src="./assets/img/Laapsi/Pic5.jpg" style="width:100%">
+    <img src="/assets/img/Laapsi/Pic5.jpg" style="width:100%">
     <div class="text">Validation from Dr. Surgeon Jeremy</div>
   </div>
 
   <div class="mySlides">
-    <img src="./assets/img/Laapsi/Pic6.jpg" style="width:100%">
+    <img src="/assets/img/Laapsi/Pic6.jpg" style="width:100%">
     <div class="text">Our Team</div>
   </div>
 
