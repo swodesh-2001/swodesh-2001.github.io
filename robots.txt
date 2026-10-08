@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://swodesh-2001.github.io/sitemap.xml
+Sitemap: https://swodeshsharma.com/sitemap.xml
