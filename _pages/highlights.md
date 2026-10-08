@@ -1,235 +1,113 @@
 ---
 layout: page
-title: Featured Highlights
-permalink: /highlights
-subtitle: Achievements, Projects, and Awards
+title: Highlights
+permalink: /highlights/
+description: Conferences, workshops, posters and moments along the way.
 nav: true
-nav_order: 8
-horizontal: false
+nav_order: 4
 ---
 
-
-Some Memorable Undergrad Memories
-
-<div class="slider-container">
-  <div class="slider">
-    <div class="slide">
-      <img src="/assets/img/highlights/6.jpeg" alt="Volunteering at IEEE RESSD Conference" onclick="enlargeImage(this)">
-      <div class="text">Volunteering at IEEE RESSD Conference</div>
-    </div>
-    <div class="slide">
-      <img src="/assets/img/highlights/2.png" alt="Lecturing juniors on Circuit and PCB design in Proteus." onclick="enlargeImage(this)">
-      <div class="text">Lecturing juniors on Circuit and PCB design in Proteus.</div>
-    </div>
-    <div class="slide">
-      <img src="/assets/img/highlights/3.png" alt="With Project Supervisor and Team on Final Thesis Submission Day." onclick="enlargeImage(this)">
-      <div class="text">With Project Supervisor and Team on Final Thesis Submission Day.</div>
-    </div>
-    <div class="slide">
-      <img src="/assets/img/highlights/4.jpeg" alt="Energy Hackathon Winning Moment" onclick="enlargeImage(this)">
-      <div class="text">Energy Hackathon Winning Moment</div>
-    </div>
-    <div class="slide">
-      <img src="/assets/img/highlights/5.jpeg" alt="Electrical Club " onclick="enlargeImage(this)">
-      <div class="text">A final photo marking a successful tenure as President of the Electrical Club, Pulchowk Campus</div>
-    </div>
-    <div class="slide">
-      <img src="/assets/img/highlights/1.jpg" alt="Post Exam Hiking" onclick="enlargeImage(this)">
-      <div class="text">Post Exam Hiking to Annapurna Base Camp</div>
-    </div>
-    <div class="slide">
-      <img src="/assets/img/highlights/7.png" alt="Final Year Project" onclick="enlargeImage(this)">
-      <div class="text">Late-night run of the thesis project before tomorrow's submission </div>
-    </div>
-     <div class="slide">
-      <img src="/assets/img/highlights/8.jpeg" alt="Laapsi-AI" onclick="enlargeImage(this)">
-      <div class="text"> Before Flight to Jumla for showcasing Laapsi-AI </div>
-    </div>
-
-  </div>
-
-
-
-  <!-- Navigation buttons -->
-  <a class="prev" onclick="changeSlide(-1)">&#10094; Previous</a>
-  <a class="next" onclick="changeSlide(1)">Next &#10095;</a>
+<h2 class="hl-head">Ph.D., Florida International University</h2>
+<div class="hl-grid">
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/phd/emt_workshop_2025.jpg" alt="EMT Simulation Workshop 2025" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">EMT Simulation Workshop 2025</span><span class="hl-sub">Oak Ridge National Laboratory</span></figcaption>
+  </figure>
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/phd/crepes_2025.jpg" alt="Poster presentation, 4th CREPES Annual Workshop 2025" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">Poster presentation, 4th CREPES Annual Workshop 2025</span><span class="hl-sub">A Hardware-in-the-Loop Testbed for Cyberattack Mitigation in C37.118 Data Transmission</span></figcaption>
+  </figure>
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/phd/ecdh_poster.jpg" alt="Poster presentation" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">Poster presentation</span><span class="hl-sub">Lightweight ECDH Encryption for Secure IEEE C37.118 Synchrophasor using HIL Implementation</span></figcaption>
+  </figure>
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/phd/td_2026.jpg" alt="IEEE PES T&amp;D Conference &amp; Exposition" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">IEEE PES T&amp;D Conference &amp; Exposition</span><span class="hl-sub">Chicago, IL</span></figcaption>
+  </figure>
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/phd/ornl.jpg" alt="Visit to Oak Ridge National Laboratory" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">Visit to Oak Ridge National Laboratory</span><span class="hl-sub">Oak Ridge, TN</span></figcaption>
+  </figure>
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/phd/chicago.jpg" alt="Chicago, after the workshop" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">Chicago, after the workshop</span><span class="hl-sub">Millennium Park</span></figcaption>
+  </figure>
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/phd/lab_dinner.jpg" alt="Lab dinner" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">Lab dinner</span><span class="hl-sub">Power System Computational Laboratory, FIU</span></figcaption>
+  </figure>
 </div>
 
-<!-- Enlarge Image Modal -->
-<div id="modal" class="modal">
-  <span class="close" onclick="closeModal()">&times;</span>
-  <img class="modal-content" id="enlargedImage">
-  <div id="caption"></div>
+<h2 class="hl-head">Undergraduate, Pulchowk Campus</h2>
+<div class="hl-grid">
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/6.jpeg" alt="Volunteering at the IEEE RESSD Conference" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">Volunteering at the IEEE RESSD Conference</span></figcaption>
+  </figure>
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/2.png" alt="Teaching juniors circuit and PCB design in Proteus" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">Teaching juniors circuit and PCB design in Proteus</span></figcaption>
+  </figure>
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/3.png" alt="With project supervisor and team on thesis submission day" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">With project supervisor and team on thesis submission day</span></figcaption>
+  </figure>
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/4.jpeg" alt="Energy Hackathon win" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">Energy Hackathon win</span></figcaption>
+  </figure>
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/5.jpeg" alt="End of tenure as President of the Electrical Club, Pulchowk Campus" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">End of tenure as President of the Electrical Club, Pulchowk Campus</span></figcaption>
+  </figure>
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/1.jpg" alt="Post-exam hike to Annapurna Base Camp" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">Post-exam hike to Annapurna Base Camp</span></figcaption>
+  </figure>
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/7.png" alt="Late-night run of the thesis project before submission" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">Late-night run of the thesis project before submission</span></figcaption>
+  </figure>
+  <figure class="hl-card">
+    <img src="/assets/img/highlights/8.jpeg" alt="Before the flight to Jumla to showcase LaApSi-AI" loading="lazy" onclick="hlOpen(this)">
+    <figcaption><span class="hl-title">Before the flight to Jumla to showcase LaApSi-AI</span></figcaption>
+  </figure>
 </div>
 
----
+<div id="hl-modal" class="hl-modal" onclick="hlClose(event)">
+  <span class="hl-close" aria-label="Close">&times;</span>
+  <img id="hl-img" alt="">
+  <div id="hl-cap"></div>
+</div>
 
 <style>
-/* Slider styles */
-.slider-container {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  max-width: 900px;
-  margin: auto;
-}
-
-.slider {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  width: 100%;
-}
-
-.slide {
-  min-width: 33.33%;
-  box-sizing: border-box;
-  padding: 10px;
-}
-
-.slide img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-}
-
-.text {
-  color: white;
-  font-size: 17px;
-  padding: 12px;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
-  margin-top: 8px;
-  border-radius: 5px;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  padding: 10px;
-  color: white;
-  font-size: 18px;
-  background-color: rgba(0, 0, 0, 0.3); /* More subtle background */
-  border-radius: 3px;
-  z-index: 1;
-}
-
-.prev {
-  left: 0;
-}
-
-.next {
-  right: 0;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.5); /* More subtle hover */
-}
-
-/* Modal (for enlarged image) styles */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 10;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-.modal-content {
-  margin: auto;
-  display: block;
-  max-width: 80%;
-  max-height: 80%;
-  object-fit: contain; /* Maintain aspect ratio */
-}
-
-.modal-content, .close {
-  animation: fadeIn 0.5s;
-}
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-.close {
-  position: absolute;
-  top: 20%;
-  left: 100px; /* Move close button to the left side of the image */
-  transform: translateY(-50%); /* Vertically center the button */
-  color: white;
-  font-size: 90px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.close:hover {
-  color: #bbb;
-}
-
-This change will position the close button to the left of the image, vertically centered. You can tweak the left value further if needed to move the button closer or further from the image.
-
-Let me know if you'd like further adjustments!
-
-
-#caption {
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  padding: 10px;
-}
+.hl-head { margin-top: 1.5rem; margin-bottom: 1rem; font-weight: 400; }
+.hl-grid { column-count: 3; column-gap: 1rem; }
+@media (max-width: 900px) { .hl-grid { column-count: 2; } }
+@media (max-width: 560px) { .hl-grid { column-count: 1; } }
+.hl-card { break-inside: avoid; margin: 0 0 1rem; border: 1px solid var(--global-divider-color); border-radius: 6px; overflow: hidden; background: var(--global-card-bg-color); }
+.hl-card img { width: 100%; height: auto; display: block; cursor: zoom-in; transition: transform .3s ease; }
+.hl-card:hover img { transform: scale(1.02); }
+.hl-card figcaption { padding: .6rem .8rem .7rem; font-size: .9rem; line-height: 1.35; }
+.hl-title { display: block; font-weight: 500; color: var(--global-text-color); }
+.hl-sub { display: block; color: var(--global-text-color-light); font-size: .82rem; margin-top: 2px; }
+.hl-modal { display: none; position: fixed; inset: 0; z-index: 2000; background: rgba(0,0,0,.9); align-items: center; justify-content: center; flex-direction: column; padding: 16px; }
+.hl-modal.open { display: flex; }
+.hl-modal img { max-width: 92vw; max-height: 82vh; object-fit: contain; border-radius: 4px; }
+#hl-cap { color: #eee; margin-top: .8rem; text-align: center; max-width: 800px; }
+.hl-close { position: absolute; top: 12px; right: 22px; color: #fff; font-size: 42px; cursor: pointer; line-height: 1; }
 </style>
 
 <script>
-let slideIndex = 0;
-
-function showSlides() {
-  let slider = document.querySelector('.slider');
-  let totalSlides = document.querySelectorAll('.slide').length;
-  let slidesVisible = 3;
-  let totalScrollWidth = slider.scrollWidth;
-  let maxIndex = totalSlides - slidesVisible;
-
-  if (slideIndex > maxIndex) {
-    slideIndex = 0;
-  } else if (slideIndex < 0) {
-    slideIndex = maxIndex;
-  }
-  
-  let offset = (totalScrollWidth / totalSlides) * slideIndex;
-  slider.style.transform = 'translateX(' + (-offset) + 'px)';
+function hlOpen(img) {
+  var m = document.getElementById("hl-modal");
+  document.getElementById("hl-img").src = img.src;
+  document.getElementById("hl-cap").innerHTML = img.parentElement.querySelector("figcaption").innerHTML;
+  m.classList.add("open");
 }
-
-// Automatically switch slides every 5 seconds
-setInterval(function() {
-  changeSlide(1);
-}, 4500);
-
-// Change slide manually using the buttons
-function changeSlide(n) {
-  slideIndex += n;
-  showSlides();
+function hlClose(e) {
+  if (e.target.id !== "hl-img") document.getElementById("hl-modal").classList.remove("open");
 }
-
-// Enlarge image in a modal
-function enlargeImage(img) {
-  const modal = document.getElementById("modal");
-  const modalImg = document.getElementById("enlargedImage");
-  const captionText = document.getElementById("caption");
-
-  modal.style.display = "block";
-  modalImg.src = img.src;
-  captionText.innerHTML = img.alt;
-}
-
-// Close the modal
-function closeModal() {
-  const modal = document.getElementById("modal");
-  modal.style.display = "none";
-}
+document.addEventListener("keydown", function (e) { if (e.key === "Escape") document.getElementById("hl-modal").classList.remove("open"); });
 </script>

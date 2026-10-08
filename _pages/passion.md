@@ -3,7 +3,7 @@ layout: page
 title: Purpose-Passion
 permalink: /passion
 subtitle: My Purpose and Passion
-nav: true
+nav: false
 nav_order: 2
 horizontal: false
 ---

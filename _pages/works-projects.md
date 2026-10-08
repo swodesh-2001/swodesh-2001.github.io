@@ -2,8 +2,8 @@
 layout: page
 title: Works-Projects
 permalink: /works-projects/
-description: Works and projects during my undergrad.
-nav: true
+description: Works and projects from my undergraduate years.
+nav: false
 nav_order: 3
 display_categories: [Projects, Papers Replicate, Ekbana Internship Works, FuseMachine Semester Projects, Core ML Scratch, Hackathon Projects]
 horizontal: false

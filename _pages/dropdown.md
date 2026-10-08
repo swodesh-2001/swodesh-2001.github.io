@@ -1,16 +1,16 @@
 ---
 layout: page
-title: submenus
-nav: false
-nav_order: 8
+title: undergrad
+nav: true
+nav_order: 5
 dropdown: true
 children:
-  - title: publications
-    permalink: /publications/
+  - title: Works and Projects
+    permalink: /works-projects/
   - title: divider
-  - title: projects
-    permalink: /projects/
+  - title: Purpose and Passion
+    permalink: /passion
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: Courses and Certificates
+    permalink: /courses/
 ---
